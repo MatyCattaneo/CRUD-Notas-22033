@@ -19,7 +19,7 @@ import modelo.Nota;
  *
  * @author Matias
  */
-@WebServlet(name = "AppServlet", urlPatterns = {"/app"})
+@WebServlet(name = "AppServlet", urlPatterns = {"/"})
 public class AppServlet extends HttpServlet {
     
     private Modelo model;
